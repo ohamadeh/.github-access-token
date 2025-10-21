@@ -2,7 +2,7 @@ origin: ohamadeh/.github-access-token # e.g. qoomon/.github-access-token
 
 # Configure which subjects are allowed to request an access token.
 allowed-subjects:
-  - 'repo:ohamadeh/test-repo:**'
+  - 'repo:ohamadeh/*:**'
 #   - 'repo:ORIGIN_OWNER/*:**' # Default
 #
 # === Allowed Subject Pattern Wildcards ===
@@ -47,4 +47,4 @@ allowed-repository-permissions: # https://docs.github.com/en/rest/authentication
 
 # Grant owner scoped permissions (owner permission or owner wide repository permissions)
 # NOTE: Every statement will always implicitly grant `metadata: read` permission.
-statements: {}
+statements: []
