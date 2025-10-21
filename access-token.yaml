@@ -1,7 +1,8 @@
 origin: ohamadeh/.github-access-token # e.g. qoomon/.github-access-token
 
 # Configure which subjects are allowed to request an access token.
-# allowed-subjects:
+allowed-subjects:
+  - 'repo:ohamadeh/test-repo:**'
 #   - 'repo:ORIGIN_OWNER/*:**' # Default
 #
 # === Allowed Subject Pattern Wildcards ===
